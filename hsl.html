@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Flipper || Hex</title>
+    <title>Color Flipper || HSL</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
@@ -14,38 +15,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Quicksand:wght@500&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
             <div class="nav-center">
                 <h1>Color Flipper</h1>
-        
+
                 <ul class="nav-links">
                     <li>
                         <a href='index.html'>Simple</a>
                     </li>
                     <li>
-                        <a href='#'>Hex</a>
+                        <a href='hex.html'>Hex</a>
                     </li>
                     <li>
                         <a href='rgb.html'>RGB</a>
                     </li>
                     <li>
-                        <a href='hsl.html'>HSL</a>
+                        <a href='#'>HSL</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-        
+
     <main>
         <div class="container">
-            <h2>Background Color: <span class="color">#FFFFFF</span></h2>
-        
+            <h2>Background Color: <span class="color">hsl(0, 0%, 100%)</span></h2>
+
             <button type="button" id="btn" class="btn btn-hero">Click me</button>
         </div>
     </main>
 
-    <script src="JS/hex.js"></script>
+    <script src="JS/hsl.js"></script>
 </body>
+
 </html>
